@@ -16,6 +16,11 @@ public class TimeFormat {
 		String suffix = (hours < 12) ? "AM" : "PM";
 
 		int hours12 = hours % 12;
+		if (hours12 == 0)
+		{
+			hours12 = 12;
+		}
+
 		
 		String minStr = String.format("%02d", minutes); 
 
