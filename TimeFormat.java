@@ -24,7 +24,7 @@ public class TimeFormat {
 
 		if(hours<12){
 			System.out.print("AM");
-		}
+		} 
 		else{
 			System.out.print("PM");
 		}
