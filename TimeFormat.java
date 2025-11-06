@@ -23,10 +23,10 @@ public class TimeFormat {
 		}
 
 		if(hours<12){
-			System.out.print("AM");
+			System.out.print(" AM");
 		} 
 		else{
-			System.out.print("PM");
+			System.out.print(" PM");
 		}
 
 
